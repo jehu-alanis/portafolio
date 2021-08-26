@@ -101,7 +101,7 @@ section .title::after{
     font-weight: 600;
 }
 .navbar .logo a span{
-    color: #f0db4f;
+    color: #eeea1d;
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
@@ -167,6 +167,7 @@ section .title::after{
     display: flex;
     background: url("images/javascript.jpg") no-repeat center;
     height: 100vh;
+    
     color: #fff;
     min-height: 500px;
     background-size: cover;
@@ -189,7 +190,7 @@ section .title::after{
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color: #f0db4f;
+    color: #eb2525;
     font-weight: 500;
 }
 .home .home-content a{
@@ -255,7 +256,6 @@ section .title::after{
     color: crimson;
     background: none;
 }
-
 /* services section styling */
 .services, .teams, .contact{
     color:#fff;
@@ -286,6 +286,7 @@ section .title::after{
 }
 .services .serv-content .card .box{
     transition: all 0.3s ease;
+    min-height: 16rem;
 }
 .services .serv-content .card:hover .box{
     transform: scale(1.05);
@@ -302,6 +303,7 @@ section .title::after{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
+    
     
 }
 .services .serv-content .card  p{
@@ -323,6 +325,7 @@ section .title::after{
     font-weight: 600;
     margin-bottom: 10px;
 }
+
 .skills .skills-content .left p{
     text-align: justify;
 }
@@ -384,11 +387,13 @@ section .title::after{
 .skills-content .right .mysql::before{
     width: 70%;
 }
-/* portafio section */
+/* portafolio section */
 
 .teams .title::after{
     background: #111;
-    content: "what was developed";
+    content: "Que he desarrollado";
+    width: 8rem;
+    bottom: -2rem;
 }
 
 
@@ -398,17 +403,19 @@ section .title::after{
     display: flex;
     justify-content: space-around;
     
+    
+    
 }
 .teams .max-width .container .pull-right button{
-    width: 170px;
-    height: 47px;
+    width: 6rem;
+    height: 3rem;
     border: 2px solid crimson;
     background: crimson;
     color: #fff;
     outline: none;
     font-size: 20px;
     font-weight: 500;
-    border-radius: 6px;
+    border-radius: 15px;
     cursor: pointer;
     transition: all 0.3s ease;
     position: relative;
@@ -418,6 +425,8 @@ section .title::after{
     color: crimson;
     background: none;
 }
+
+
 .teams .max-width .container .thumbnails-gallery .thumbnail h4{
     position: absolute;
     bottom:75%;
@@ -455,7 +464,7 @@ section .title::after{
 
 .thumbnails-gallery .span3 .thumbnail{
    position: relative;
-   width: 300px;
+   width: 270px;
    height: 300px;
    margin: 5px;
 }
@@ -466,16 +475,103 @@ section .title::after{
     
     position: relative;
     bottom: 0%;
-  
-
  }
 
+ .thumbnails-gallery .span3   button{
+    
+    width: 8rem;
+    height: 3rem;
+    border: 2px solid crimson;
+    background: crimson;
+    color: #fff;
+    outline: none;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    
+ }
+
+ .thumbnails-gallery .span3   button:hover{
+    
+    color: crimson;
+    background: none;
+ }
  
+ .thumbnails-gallery .span3  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .thumbnails-gallery .span3  .modal .modal-content {
+    background-color: #fff;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    color: #000;
+  }
+  /* Modal Content */
+  .thumbnails-gallery .span3  .modal .modal-content .sitio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
- 
+  /* Modal Content */
+  .thumbnails-gallery .span3  .modal .modal-content .tecnologias{
+    display: flex;
+    align-items: center;
+  justify-content: center;
+  }
+  
+  /* The Close Button */
+  .thumbnails-gallery .span3 .modal .modal-content .close,
+  .thumbnails-gallery .span3 .modal .modal-content .close2,
+  .thumbnails-gallery .span3 .modal .modal-content .close3,
+  .thumbnails-gallery .span3 .modal .modal-content .close4,
+  .thumbnails-gallery .span3 .modal .modal-content .close5,
+  .thumbnails-gallery .span3 .modal .modal-content .close6,
+  .thumbnails-gallery .span3 .modal .modal-content .close7 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .thumbnails-gallery .span3  .modal .modal-content .close:hover,
+  .thumbnails-gallery .span3  .modal .modal-content .close2:hover,
+  .thumbnails-gallery .span3  .modal .modal-content .close3:hover,
+  .thumbnails-gallery .span3  .modal .modal-content .close4:hover,
+  .thumbnails-gallery .span3  .modal .modal-content .close5:hover,
+  .thumbnails-gallery .span3  .modal .modal-content .close6:hover,
+  .thumbnails-gallery .span3  .modal .modal-content .close7:hover,
+  .thumbnails-gallery .span3  .modal .modal-content .close:focus,
+  .thumbnails-gallery .span3  .modal .modal-content .close2:focus,
+  .thumbnails-gallery .span3  .modal .modal-content .close3:focus,
+  .thumbnails-gallery .span3  .modal .modal-content .close4:focus,
+  .thumbnails-gallery .span3  .modal .modal-content .close5:focus,
+  .thumbnails-gallery .span3  .modal .modal-content .close6:focus,
+  .thumbnails-gallery .span3  .modal .modal-content .close7:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
 
 
-/* teams section styling */
+/* certificados styling */
 .teamsd .title::after{
     content: "I've learned";
 }
@@ -741,7 +837,7 @@ footer span a:hover{
         width: calc(50% - 10px);
         margin-bottom: 20px;
     }
-    .skills .skills-content .column,
+    .skills .skills-content .column,.teams,
     .contact .contact-content .column{
         width: 100%;
         margin-bottom: 35px;
