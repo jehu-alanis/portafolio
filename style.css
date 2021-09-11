@@ -544,7 +544,8 @@ section .title::after{
   .thumbnails-gallery .span3 .modal .modal-content .close4,
   .thumbnails-gallery .span3 .modal .modal-content .close5,
   .thumbnails-gallery .span3 .modal .modal-content .close6,
-  .thumbnails-gallery .span3 .modal .modal-content .close7 {
+  .thumbnails-gallery .span3 .modal .modal-content .close7,
+  .thumbnails-gallery .span3 .modal .modal-content .close8 {
     color: #aaaaaa;
     float: right;
     font-size: 28px;
@@ -558,13 +559,15 @@ section .title::after{
   .thumbnails-gallery .span3  .modal .modal-content .close5:hover,
   .thumbnails-gallery .span3  .modal .modal-content .close6:hover,
   .thumbnails-gallery .span3  .modal .modal-content .close7:hover,
+  .thumbnails-gallery .span3  .modal .modal-content .close8:hover,
   .thumbnails-gallery .span3  .modal .modal-content .close:focus,
   .thumbnails-gallery .span3  .modal .modal-content .close2:focus,
   .thumbnails-gallery .span3  .modal .modal-content .close3:focus,
   .thumbnails-gallery .span3  .modal .modal-content .close4:focus,
   .thumbnails-gallery .span3  .modal .modal-content .close5:focus,
   .thumbnails-gallery .span3  .modal .modal-content .close6:focus,
-  .thumbnails-gallery .span3  .modal .modal-content .close7:focus {
+  .thumbnails-gallery .span3  .modal .modal-content .close7:focus,
+  .thumbnails-gallery .span3  .modal .modal-content .close8:focus {
     color: #000;
     text-decoration: none;
     cursor: pointer;
