@@ -341,6 +341,22 @@ section .title::after{
     border: 2px solid crimson;
     transition: all 0.3s ease;
 }
+.skills .skills-content .left .parraf a{
+    display: inline-block;
+    background: rgb(250, 248, 248);
+    color: rgb(7, 7, 7);
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 16px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid rgb(243, 242, 242);
+    transition: all 0.3s ease;
+}
+.skills .skills-content .left .parraf a:hover{
+    color: rgb(250, 248, 248);
+    background: rgb(34, 96, 231);;
+}
 .skills .skills-content .left a:hover{
     color: crimson;
     background: none;
